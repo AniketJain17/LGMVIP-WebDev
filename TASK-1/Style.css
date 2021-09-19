@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    min-height: 100px;
+}
+header
+{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 100px;
+    z-index: 1000;
+    transition: 0.6s;
+    background-color: rgba(13, 30, 175, 0.822);
+    position: fixed;
+    
+}
+header .sticky
+{
+    padding: 5px 100px;
+    background-color: #000;
+    border-bottom: 20px solid rgba(0,0,0,.1);
+}
+header a img
+{
+    position: relative;
+    background: transparent;
+    width: 100px;
+    height:70px;
+    transition: 0.6s;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+header ul li a
+{
+    position: relative;
+    font-size: 25px;
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(14, 226, 215);
+    letter-spacing: 2px;
+    font-weight: 800;
+    transition: 0.6s;
+}
+header .sticky .logo,
+header .sticky ul li a
+{
+    color: rgb(30, 255, 0);
+}
+.banner
+{
+    
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    padding: 10px;
+    background-image: url("./images/banner1.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Wel
+{
+    background: rgb(174, 194, 241);
+    padding: 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec .contet
+{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.mxw100
+{
+    max-width: 100%;
+    margin: 0 auto;
+}
+h2
+{   padding-top: 0;
+    color: #ff0000;
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.sec
+{
+    background: rgb(255, 255, 255);
+    padding: 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec .content
+{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.mxw800p
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h3
+{
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+p{
+    position: relative;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.btn
+{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background: #000;
+    text-decoration: solid;
+    color: #fff;
+}
+.btn:hover
+{
+    color: #ff0000;
+}
+.services
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 30px;
+    max-width: 100%;
+    margin-top: 40px;
+}
+.services .box
+{
+    width: 300px;
+    margin: 0 auto;
+    background: rgb(156, 180, 238);
+    padding: 10px;
+    box-shadow: 0 15px 30px rgb(0, 0, 0,0.05);
+}
+.services .box .iconBx
+{
+    margin-top: 25px;
+}
+.services .box .iconBx img
+{
+    max-width: 70px;
+    margin-bottom: 15px;
+}
+.services .box h2
+{
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.stats
+{
+    background: rgb(199, 210, 235);
+    padding-top: 250px;
+    margin-top: -250px;
+}
+.stats h3,
+.stats p
+{
+    color: #000;
+} 
+.statsBox
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 20px;
+    max-width: 100%;
+    margin-top: 40px;
+}
+.statsBox h2{
+    color: rgb(255, 0, 0);
+    font-size: 36px;
+}
+.statsBox h4
+{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.workBx
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-gap: 30px;
+    max-width: 100%;
+    margin-top: 40px;
+}
+.workBx .brand
+{
+    position: relative;
+    background: #4978ff;
+    min-height: 300px;
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.workBx .brand:hover
+{
+    background: #000;
+}
+.workBx .brand a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.workBx .brand:hover a
+{
+    color: rgba(255,255,255,1);
+}
+.teamBx
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-gap: 30px;
+    max-width: 100%;
+    margin-top: 40px;
+}
+.teamBx .member
+{
+    position: relative;
+    background: #000;
+    min-height: 300px;
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teamBx .member .imgBx
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.teamBx .member .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.teamBx .member .details
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    transition: 0.2s;
+    opacity: 0;
+}
+.teamBx .member:hover .details
+{
+    opacity: 1;
+}
+.teamBx .member .details h2{
+    color: rgb(255, 1, 1);
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.teamBx .member .details h2 span
+{
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+}
+.contact
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-gap: 20px;
+    max-width: 100%;
+    margin-top: 40px;
+    background: #000;
+}
+.contact .mxw900p
+{
+    position: relative;
+    display: inline;
+    padding-left: 0;
+}
+.contact h3,
+.contact p
+{
+    color: #fff;
+}
+.contact h3
+{
+    justify-content: center;
+    align-items: center; 
+    display: block;
+    padding-left: 25px;
+    padding-bottom: 100px;
+
+}
+.contactForm
+{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding-right: 200px;
+}
+.contactForm form
+{
+    width: 100%;
+}
+.contactForm .row100
+{
+    display: flex;
+    width: 100%;
+}
+.contactForm .row100 .inputBx50
+{
+    width: 50%;
+    margin: 0 20px;
+}
+.contactForm .row100 .inputBx100
+{
+    width: 100%;
+    margin: 0 20px;
+}
+.contactForm .row100 input,
+.contactForm .row100 textarea
+{
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0;
+    resize: none;
+}
+.contactForm .row100 textarea
+{
+    height: 100px;
+}
+.contactForm .row100 input::placeholder,
+.contactForm .row100 textarea
+{
+    color: rgba(255,255,255,0.5);
+}
+.contactForm .row100 input[type="submit"]
+{
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #000;
+    max-width: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.Fotter
+{
+    background: rgb(0, 0, 0);
+}
+.sci
+{
+    position: relative;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.sci ul
+{
+    display: flex;
+    justify-content: center;
+}
+.sci ul li
+{
+    list-style: none;
+    justify-content: center;
+}
+.sci ul li a
+{
+    text-decoration: none;
+    display: inline-block;
+    justify-content: center;
+    margin: 0 30px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+.fa:hover {
+      opacity: 0.7;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }  
+  
+.copyright a
+{
+   color: rgb(255, 255, 255);
+   display: contents;
+    justify-content: center;
+    align-items: center;
+    padding-left: 800px;
+   text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+}
+.copyright a:hover
+{
+    color: rgb(43, 255, 0);
+}
+.copyright{
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    padding-left: 800;
+    color: #ff0000;
+}
