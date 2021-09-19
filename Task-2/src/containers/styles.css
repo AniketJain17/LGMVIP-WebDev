@@ -1,0 +1,79 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../pexels-nohk-1735658.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 430px;
+}
+
+.copy {
+    margin-bottom: 0;
+    color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(13, 206, 55, 0.89);
+    padding-top: 20px;
+}
+
+.bod {
+    border-radius: 8px;
+}
+
+.col {
+    background-color: rgba(255, 255, 255, 0.061);
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.5);
+    border-left: 2px solid rgba(255, 255, 255, 0.5);
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 18px;
+    backdrop-filter: blur(19px);
+    width: 500px;
+}
+.a{
+    background-image: url(../pic1.jpg);
+    background-repeat: no-repeat;
+    padding: 450px;       
+}
+.tap {
+    
+    width: 150px;
+    height: 150px;
+    background-color: rgb(235, 35, 35);
+    box-shadow: 1px 2px 20px 5px rgba(0, 246, 246, 0.911);
+    height: 70vh;
+    width: 70vh;
+    background-image: url(../pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bg-lightest{
+    background-color: rgb(76, 197, 57);
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tc{
+    padding: 10px;
+    background-color: rgba(7, 56, 190, 0.555);
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 7%;
+    padding-top: 35%;
+    font-size: 43px;
+    font-weight: bold;
+
+}

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    background-image: url(./2.jpg);
+    color: rgba(228, 54, 31, 0.76) ;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 95%;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(51, 255, 0, 0.39);
+}
+
+a:hover {
+    transform: scale(1.08);
+    transition: 1.5s;
+}
+
+@media screen and (max-width: 700px) {
+    .logo {
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+}
